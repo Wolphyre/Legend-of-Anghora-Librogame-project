@@ -13,27 +13,29 @@ body {
 }
 
 .container {
-    /* background-image: url(./assets/pattern_brick-wall-1_1_2_0-0_0_1__a6a0a0_000000.png); */
+    background-image: url(./assets/pattern_brick-wall-1_1_2_0-0_0_1__a6a0a0_000000.png);
     width: 100%;
     height: 100%;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
 
 .head {
+    background-color: aliceblue;
     margin-top: 2%;
     width: 50%;
     display: flex;
 }
 
 .gameboard {
+    background-color: blueviolet;
     width: 100%;
     display: flex
 }
 
 .main {
+    background-color: #3f3f3f;
     margin: 2px;
     height: 450px;
     width: 60%;
@@ -42,6 +44,7 @@ body {
 }
 
 .columnleft {
+    background-color: aliceblue;
     margin: 10px;
     flex-grow: 1;
     flex-direction: row;
@@ -49,19 +52,21 @@ body {
 }
 
 .columnright {
+    background-color: aqua;
     margin: 10px;
     flex-grow: 1;
     flex-direction: row;
-
 }
 
 .controls {
+    background-color: aquamarine;
     margin-top: 2%;
     width: 80%;
     flex-direction: column
 }
 
 .foot {
+    background-color: aliceblue;
     width: 100%;
     margin-top: 5%;
     flex-direction: row
