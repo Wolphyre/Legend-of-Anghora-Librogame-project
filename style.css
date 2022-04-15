@@ -1,0 +1,70 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.red-border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.container {
+    /* background-image: url(./assets/pattern_brick-wall-1_1_2_0-0_0_1__a6a0a0_000000.png); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head {
+    width: 50%;
+    display: flex;
+}
+
+.gameboard {
+    width: 100%;
+    display: flex
+}
+
+.main {
+    height: 450px;
+    width: 60%;
+    flex-grow: 3;
+    flex-direction: row;
+}
+
+.columnleft {
+    margin: 10px;
+    flex-grow: 1;
+    flex-direction: row;
+
+}
+
+.columnright {
+    flex-grow: 1;
+    flex-direction: row;
+
+}
+
+.controls {
+    width: 80%;
+    flex-direction: column
+}
+
+.foot {
+    flex-direction: row
+}
+
+.divider {
+    width: 1px;
+    background-color: #515151;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 1px;
+}
