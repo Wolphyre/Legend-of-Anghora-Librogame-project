@@ -17,12 +17,13 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
 
 .head {
+    margin-top: 2%;
     width: 50%;
     display: flex;
 }
@@ -33,6 +34,7 @@ body {
 }
 
 .main {
+    margin: 2px;
     height: 450px;
     width: 60%;
     flex-grow: 3;
@@ -47,17 +49,21 @@ body {
 }
 
 .columnright {
+    margin: 10px;
     flex-grow: 1;
     flex-direction: row;
 
 }
 
 .controls {
+    margin-top: 2%;
     width: 80%;
     flex-direction: column
 }
 
 .foot {
+    width: 100%;
+    margin-top: 5%;
     flex-direction: row
 }
 
