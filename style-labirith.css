@@ -201,8 +201,10 @@ body {
     width: 50px;
 }
 
-.logo{
+.logo {
     width: 50px;
-    }
-    
-    img {max-width: 100%;}
+}
+
+img {
+    max-width: 100%;
+}

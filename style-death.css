@@ -177,6 +177,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 .divider {
     width: 1px;
     margin: 1%;
@@ -194,8 +195,10 @@ body {
     width: 50px;
 }
 
-.logo{
+.logo {
     width: 50px;
-    }
-    
-    img {max-width: 100%;}
+}
+
+img {
+    max-width: 100%;
+}
