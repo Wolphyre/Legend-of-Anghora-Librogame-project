@@ -42,7 +42,7 @@ body {
 }
 
 .gameboard {
-    background-image: url(/assets/marmoscuro.jpg);
+    background-image: url(./assets/marmoscuro.jpg);
     background-size: cover;
     border: solid 0.5px black;
     padding: 0%;
@@ -129,7 +129,7 @@ body {
     border: solid rgb(0, 0, 0) 2px;
     margin-bottom: 12%;
     display: flex;
-    background-image: url(/assets/pergamena.jpg);
+    background-image: url(./assets/pergamena.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 16px;
