@@ -53,8 +53,8 @@ body {
 
 .main {
     background-color: rgb(0, 0, 0);
-    background-image: url(./assets/intro.jpg);
-    background-position: center;
+    background-image: url(./assets/deathskull.jpg);
+    background-position-y: -230px;
     background-size: cover;
     background-repeat: no-repeat;
     border: solid goldenrod 5px;
@@ -79,7 +79,7 @@ body {
     border: solid black 1px;
     border-radius: 38px;
     display: flex;
-    height: 40%;
+    height: 30%;
     width: 100%;
     margin: 1%;
     padding-left: 16px;
@@ -200,4 +200,16 @@ body {
     width: 1px;
     margin: 1%;
 
+}
+
+.menubutton {
+    cursor: grabbing;
+    background-color: whitesmoke;
+    margin-top: -90px;
+    margin-left: 850px;
+    border-radius: 100px;
+    position: fixed;
+    border: solid;
+    height: 50px;
+    width: 50px;
 }

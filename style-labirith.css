@@ -53,7 +53,7 @@ body {
 
 .main {
     background-color: rgb(0, 0, 0);
-    background-image: url(./assets/intro.jpg);
+    background-image: url(./assets/corridor.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ body {
     border-radius: 30px;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 28px;
+    margin-left: 10px;
     margin-right: 28px;
     height: 650px;
     width: 60%;
@@ -79,7 +79,7 @@ body {
     border: solid black 1px;
     border-radius: 38px;
     display: flex;
-    height: 40%;
+    height: 34%;
     width: 100%;
     margin: 1%;
     padding-left: 16px;
@@ -89,17 +89,22 @@ body {
     border-radius: 10px;
     border: solid gold 2px;
     display: flex;
-    margin-top: 0.8%;
-    margin-bottom: 0.8%;
-    margin-left: 0.8%;
-    padding-right: 50px;
+    margin: 0.8%;
     flex-grow: 1;
-    background-color: grey;
-    background-image: url(./assets/worgen.jpg);
+    background-color: wheat;
+    background-image: url(./assets/map.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 30%;
-    background-position-y: 20%;
+}
+
+.mapmarker {
+    border: solid red 4px;
+    border-radius: 100px;
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    margin-top: 380px;
+    margin-left: 33%;
 }
 
 .columnright {
@@ -200,4 +205,16 @@ body {
     width: 1px;
     margin: 1%;
 
+}
+
+.menubutton {
+    cursor: grabbing;
+    background-color: whitesmoke;
+    margin-top: -90px;
+    margin-left: 850px;
+    border-radius: 100px;
+    position: fixed;
+    border: solid;
+    height: 50px;
+    width: 50px;
 }
