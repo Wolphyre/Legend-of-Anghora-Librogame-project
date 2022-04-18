@@ -41,7 +41,7 @@ body {
 }
 
 .gameboard {
-    background-image: url(./assets/marmoscuro.jpg);
+    background-image: url("./assets/marmoscuro.jpg");
     background-size: cover;
     border: solid 0.5px black;
     padding: 0%;
