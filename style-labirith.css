@@ -6,8 +6,8 @@ html,
 body {
     margin: 0px;
     padding: 0px;
-    height: 100% !important;
-    width: 100% !important;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -174,31 +174,13 @@ body {
 }
 
 .foot {
+    padding: 2rem;
     border: solid whitesmoke 1px;
     color: white;
     background-color: rgb(34, 34, 34);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-}
-
-.credits {
-    padding-top: 40px;
-    display: flex;
-    flex-grow: 1;
-}
-
-.logo {
-    padding-top: 30px;
-    display: flex;
-    flex-grow: 2;
-}
-
-.contacts {
-
-    padding-top: 30px;
-    display: flex;
-    flex-grow: 1;
 }
 
 .divider {
@@ -218,3 +200,9 @@ body {
     height: 50px;
     width: 50px;
 }
+
+.logo{
+    width: 50px;
+    }
+    
+    img {max-width: 100%;}

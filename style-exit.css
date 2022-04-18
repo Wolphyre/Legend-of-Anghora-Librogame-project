@@ -48,7 +48,7 @@ body {
 }
 .main {
     background-color: rgb(0, 0, 0);
-    background-image: url(./assets/intro.jpg);
+    background-image: url(./assets/exit.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body {
     border: solid black 1px;
     border-radius: 38px;
     display: flex;
-    height: 40%;
+    height: 25%;
     width: 100%;
     margin: 1%;
     padding-left: 16px;
@@ -153,7 +153,7 @@ body {
     display: flex;
 }
 .foot {
-    padding: 3rem;
+    padding: 2rem;
     border: solid whitesmoke 1px;
     color: white;
     background-color: rgb(34, 34, 34);
@@ -161,14 +161,15 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-
-.logo{
-width: 50px;
-}
-
-img {max-width: 100%;}
-
 .divider {
     width: 1px;
     margin: 1%;
 }
+
+.logo{
+    width: 50px;
+    }
+    
+    img {max-width: 100%;}
+
+
